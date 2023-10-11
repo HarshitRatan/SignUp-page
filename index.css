@@ -9,6 +9,7 @@
 
 body {
   background-color: var(--main-background-color);
+  margin-bottom: 5rem;
 }
 
 .text-color-white {
@@ -160,6 +161,21 @@ body {
   font-weight: 400;
   margin-top: 2rem;
   color: rgba(21, 20, 57, 0.795);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-check-label {
+  margin-left: 1rem;
+}
+
+.form-check-input {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.form-check-input:checked {
+  background-color: #25dac5;
 }
 
 .have-an-account {
@@ -185,6 +201,13 @@ body {
   font-weight: 500;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.side-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 @media only screen and (max-width: 480px) {
