@@ -77,6 +77,7 @@ body {
 
 .secondary-button:hover {
   background: var(--secondary-button-color);
+  color: var(--primary-text-color);
 }
 
 .sky-blue-button {
@@ -101,6 +102,7 @@ body {
 
 .sky-blue-button:hover {
   background: var(--sky-blue-button-color);
+  color: var(--primary-text-color);
 }
 
 .navbar-style {
